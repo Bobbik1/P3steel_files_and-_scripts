@@ -107,3 +107,22 @@ http://<your_pi_ip>:1984
 WebRTC: Best for low latency (near real-time).
 
 RTSP: rtsp://<your_pi_ip>:8554/csi_cam
+
+### how to enable stream on client side = Other Pi with mainsail
+
+open webgui
+
+go to web camera - add
+
+set camera name same as in go2rtc
+
+set url  
+
+```shell
+http://IPofYOURpiZERO:1984/stream.html?src=kamera_csi
+```
+
+set service 
+```shell
+WebRtc(go2rtc)
+```
