@@ -1,8 +1,10 @@
-Restore form klipper backup
+# Restore form klipper backup
 ssh to host
-'nano restore_klipper.sh'
+```shell
+nano restore_klipper.sh
+```
 paste:
-'
+```shell
 #!/bin/bash
 
 # --- KONFIGURACJA ---
@@ -48,7 +50,9 @@ rm -rf "$TEMP_DIR"
 
 echo "✅ Gotowe! Pliki zostały nadpisane w $CONFIG_DIR"
 echo "🔄 Pamiętaj, aby wykonać FIRMWARE_RESTART w panelu Mainsail."
-'
-remember to change repository  for your own link
+```
+### remember to change repository  for your own link
+
 ctl x, y , enter
+
 Restart firmware in clipper/mainsail
