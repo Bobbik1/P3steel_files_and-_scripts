@@ -8,9 +8,6 @@ set up clipperScreen
 
 script for recover your backup from klipper-backup
 
-## remember to use 32bit sysrem with Pi3
-
-
-
-
+## remember to use 32bit system with Pi3
+using 64 seems to be fine, but Pi freezes during long prints
 
