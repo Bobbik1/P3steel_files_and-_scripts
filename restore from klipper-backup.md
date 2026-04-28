@@ -55,4 +55,8 @@ echo "🔄 Pamiętaj, aby wykonać FIRMWARE_RESTART w panelu Mainsail."
 
 ctl x, y , enter
 
+```shell
+sudo chmod +x restore_klipper.sh
+sudo ./restore_klipper.sh
+```
 Restart firmware in clipper/mainsail
