@@ -8,6 +8,8 @@ set up clipperScreen
 
 script for recover your backup from klipper-backup
 
+## remember to use 32bit sysrem with Pi3
+
 
 
 
