@@ -1,6 +1,6 @@
 install  mainsailOs by raspberry pi imager
 
-### Rpi3 please install 32 bit lite OS and then Kiauh and rest of klipper stuff
+### for  Rpi3 please install 32 bit lite OS and then Kiauh and rest of klipper stuff
 
 
 ```shell
