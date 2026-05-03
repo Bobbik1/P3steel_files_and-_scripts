@@ -61,7 +61,7 @@ Na samym dole dodaj linię:
 
 4. Konfiguracja Moonrakera (Pi 3B+)
 Teraz powiedz Mainsailowi (przez Moonrakera), żeby słuchał tych danych.
- Edytuj moonraker.conf na Pi 3B+:
+ Edytuj moonraker.conf na Pi 3B+, użyj IP twojego pi zero:
 
 ```
 [mqtt]
@@ -71,16 +71,14 @@ address: 127.0.0.1
 type: mqtt
 name: Pi Zero Temp
 state_topic: picam/temp
-# Ta linia mówi Moonrakerowi: "użyj odebranej wiadomości jako wartości"
 state_response_template: {payload}
-units: °C
 
 [sensor picam_volt]
 type: mqtt
 name: Pi Zero Volt
 state_topic: picam/volt
 state_response_template: {payload}
-units: V
+
 
 
 ```
