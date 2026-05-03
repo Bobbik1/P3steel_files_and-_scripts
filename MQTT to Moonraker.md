@@ -67,17 +67,21 @@ Teraz powiedz Mainsailowi (przez Moonrakera), żeby słuchał tych danych.
 [mqtt]
 address: 127.0.0.1
 
-[sensor picam_stats]
+[sensor picam_temp]
 type: mqtt
-name: Pi Zero Cam
+name: Pi Zero Temp
 state_topic: picam/temp
+# Ta linia mówi Moonrakerowi: "użyj odebranej wiadomości jako wartości"
+state_response_template: {payload}
 units: °C
 
-[sensor picam_voltage]
+[sensor picam_volt]
 type: mqtt
 name: Pi Zero Volt
 state_topic: picam/volt
+state_response_template: {payload}
 units: V
+
 
 ```
 
